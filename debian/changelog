@@ -1,0 +1,5 @@
+libdancer-plugin-redis-perl (0.01-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Christophe Nowicki <cnowicki@lncsa.com>  Tue, 26 Oct 2010 14:50:17 +0200

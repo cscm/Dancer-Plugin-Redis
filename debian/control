@@ -1,0 +1,25 @@
+Source: libdancer-plugin-redis-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 5)
+Build-Depends-Indep: perl (>= 5.6.10-12)
+Maintainer: Christophe Nowicki <cnowicki@lncsa.com>
+Standards-Version: 3.8.0
+Homepage: http://search.cpan.org/dist/Dancer-Plugin-Redis/
+
+Package: libdancer-plugin-redis-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: easy redis database connections for Dancer applications
+ Provides an easy way to obtain a connected Redis database handle by simply calling
+ the redis keyword within your Dancer application.
+ .
+ Takes care of ensuring that the database handle is still connected and valid.
+ If the handle was last asked for more than connection_check_threshold seconds
+ ago, it will check that the connection is still alive, using either the 
+ $r->ping method if the Redis driver supports it, or performing a simple
+ no-op query against the database if not.  If the connection has gone away, a new
+ connection will be obtained and returned.  This avoids any problems for
+ a long-running script where the connection to the database might go away.
+ .
+ This description was automagically extracted from the module by dh-make-perl.

@@ -1,0 +1,14 @@
+This is the debian package for the Dancer-Plugin-Redis module.
+It was created by Christophe Nowicki <cnowicki@lncsa.com> using dh-make-perl.
+
+It was downloaded from http://search.cpan.org/dist/Dancer-Plugin-Redis/
+
+This copyright info was automatically extracted from the perl module.
+It may not be accurate, so you better check the module sources
+if you don't want to get into legal troubles.
+
+The upstream author is: Christophe Nowicki <cscm@csquad.org>.
+
+
+The Debian packaging is (C) 2010, Christophe Nowicki <cnowicki@lncsa.com> and
+is licensed under the same terms as the software itself (see above).
