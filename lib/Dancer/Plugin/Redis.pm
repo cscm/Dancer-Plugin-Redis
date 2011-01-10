@@ -10,7 +10,7 @@ Dancer::Plugin::Redis - easy database connections for Dancer applications
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $settings = plugin_setting;
 my %handles;
