@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Dancer-Plugin-Redis
-version:            0.01
+version:            0.02
 abstract:           easy redis database connections for Dancer applications
 author:
     - Christophe Nowicki <cscm@csquad.org>

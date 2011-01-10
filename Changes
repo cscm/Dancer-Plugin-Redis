@@ -1,4 +1,6 @@
 Revision history for Dancer-Plugin-Redis
+0.02    2011-01-01
+        Change github url and copyright
 
 0.01    2011-01-01
         Initial version developed based on David Precious Dancer::Plugin::Database
